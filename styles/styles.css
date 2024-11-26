@@ -1,0 +1,207 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*/
+/// grijs #899CA0
+/// donkergroen #1C2B32
+/*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+  }
+  
+  main {
+    width: 1000px;
+    margin: auto;
+  }
+  
+  /*////////////////////////
+      2. Typography
+  ////////////////////////*/
+  
+  .super {
+    color: #1C2B32;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .heelklein {
+    color: #1C2B32;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  
+  /*////////////////////////
+      3. Areas
+  ////////////////////////*/
+  
+  h5 {
+    color: #1C2B32;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  section {
+    padding-top: 60px;
+  }
+  
+  /*///////////// 3.1 Header /////////////*/
+  
+  /* in het github-project zit een hele andere achtergrond plaat, kreeg de layout vcan de header dan ook niet goed */
+  header {
+    width: 1920px;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+    height: 630px;
+    background-image: url("../assets/images/mountains.jpg");
+  }
+  
+  div.mt {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+  }
+  
+  div.heelklein {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+  }
+  
+  form {
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    text-align: center;
+  }
+  
+  input {
+    border: 1px solid #1C2B32;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 50px;
+    padding: 10px 30px;
+    background-color: transparent;
+    margin: 0;
+  }
+  button {
+    background-color: #1C2B32;
+    color: white;
+    height: 50px;
+    margin: 0;
+    padding: 10px 30px;
+    border: 5px solid #1C2B32;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  /*///////////// 3.2 Testimonial /////////////*/
+  
+  blockquote {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+    box-shadow: 10px 5px 5px #eee;
+    margin: auto auto 20px;
+    padding: 20px;
+  }
+  
+  blockquote p {
+    color: #000;
+    padding: 15px;
+    font-size: 16px;
+  }
+  
+  blockquote footer {
+    color: #899CA0;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    padding-bottom: 10px;
+    
+  }
+  blockquote footer img {
+    width: 36px;
+  }
+  
+  /*///////////// 3.3 Support /////////////*/
+  
+  #support-section img {
+    width: 100%;
+  }
+  
+  #support-text {
+    text-align: left;
+    font-size: 14px;
+  }
+  #neem-contact-op {
+    background-color: #1C2B32;
+    color: white;
+    height: 40px;  
+    padding: 10px 25px;  
+    border: 3px solid #1C2B32;  
+    border-radius: 25px;  
+    font-size: 16px;  
+}
+
+  
+  /*///////////// 3.4 Faq /////////////*/
+  
+  #veelgestelde-vragen {
+    color: #1C2B32;
+    font-size: 15px;
+    padding-left: 32px;
+  }
+  
+  details {
+    padding-top: 24px;
+  }
+  details summary {
+    padding-top: 4px;
+  }
+  
+  /*///////////// 3.5 Footer /////////////*/
+  
+  footer {
+    padding-top: 120px;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  footer p {
+    font-size: 14px;
+    background-color: #1C2B32;
+    padding: 20px;
+    color: #fff;
+  }
